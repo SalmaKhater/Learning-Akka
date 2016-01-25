@@ -11,5 +11,6 @@ object AkkaExcamples extends Build {
     lazy val persistence = Project(id = "persistence", base = file("persistence"))
     lazy val persistenceQuery = Project(
     	id = "persistence-fsm-query", base = file("persistent-fsm&query"))
+    lazy val remoting = Project(id = "akka-remoting", base = file("akka-remoting"))
 }
 
