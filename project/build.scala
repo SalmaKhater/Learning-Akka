@@ -8,5 +8,6 @@ object AkkaExcamples extends Build {
     lazy val actorPaths = Project(id = "actor-paths", base = file("actor-paths"))
     lazy val hotswap = Project(id = "hotswap-behavior", base = file("hotswap-behavior"))
     lazy val routing = Project(id = "routing", base = file("routing"))
+    lazy val persistence = Project(id = "persistence", base = file("persistence"))
 }
 
