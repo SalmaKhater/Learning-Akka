@@ -16,5 +16,6 @@ object AkkaExcamples extends Build {
     lazy val testingActors = Project(id = "testing-actors", base= file("testing-actors"))
     lazy val testingParentChild = Project(
         id = "testing-parent-child", base= file("testing-parent-child"))
+    lazy val testFSM = Project(id = "test-FSM", base = file("test-FSM"))
 }
 
