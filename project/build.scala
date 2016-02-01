@@ -20,5 +20,7 @@ object AkkaExcamples extends Build {
     lazy val multiNodeTest = Project(id = "multiNodeTest", 
         base = file("multi-node-testing"))
     lazy val streams = Project(id = "streams", base = file("akka-streams"))
+    lazy val reactiveTweets = Project(id = "reactiveTweets", 
+        base = file("reactive-tweets"))
 }
 
