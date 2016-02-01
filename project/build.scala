@@ -14,5 +14,7 @@ object AkkaExcamples extends Build {
     lazy val remoting = Project(id = "akka-remoting", base = file("akka-remoting"))
     lazy val cluster = Project(id = "akka-cluster", base = file("akka-cluster"))
     lazy val testingActors = Project(id = "testing-actors", base= file("testing-actors"))
+    lazy val testingParentChild = Project(
+        id = "testing-parent-child", base= file("testing-parent-child"))
 }
 
