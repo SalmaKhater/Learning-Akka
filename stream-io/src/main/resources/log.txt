@@ -1,0 +1,11 @@
+1.  [INFO] starting system
+2.  [DEBUG] starting subsystem 1
+3.  [ERROR] could not initalize subsystem 1  
+4.  [DEBUG] starting subsystem 2
+5.  [ERROR] could not initalize subsystem 2
+6. something else
+7.  [WARN] bad sign
+8.  [INFO] aright, sorted it out
+9.  [DEBUG] working...
+10. [DEBUG] all done
+11. [INFO] shutting down system
