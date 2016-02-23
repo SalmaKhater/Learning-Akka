@@ -28,5 +28,7 @@ object AkkaExcamples extends Build {
     lazy val streamsIO = Project(id = "stream-io", base = file("stream-io"))
     lazy val httpClient = Project(id = "httpClient", 
         base = file("akka-http-client-side-api"))
+    lazy val httpServer = Project(id = "httpServer", 
+        base = file("akka-http-server-side-api"))
 }
 
