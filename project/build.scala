@@ -40,5 +40,7 @@ object AkkaExcamples extends Build {
         base = file("scheduler-messages"))
     lazy val shutdown = Project(id = "shutdownPattern", 
         base = file("shutdown-pattern")) 
+    lazy val throttlerMessages = Project(id = "throttlerMessages", 
+        base = file("throttler-messages"))
 }
 
