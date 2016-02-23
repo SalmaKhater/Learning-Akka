@@ -32,5 +32,8 @@ object AkkaExcamples extends Build {
         base = file("akka-http-server-side-api"))
     lazy val restApi = Project(id = "restApi", 
         base = file("rest-api"))
+    lazy val balancingWorkload = Project(id = "balancingWorkload", 
+        base = file("balancing-workload"))
+    
 }
 
