@@ -30,5 +30,7 @@ object AkkaExcamples extends Build {
         base = file("akka-http-client-side-api"))
     lazy val httpServer = Project(id = "httpServer", 
         base = file("akka-http-server-side-api"))
+    lazy val restApi = Project(id = "restApi", 
+        base = file("rest-api"))
 }
 
