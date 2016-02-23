@@ -38,6 +38,7 @@ object AkkaExcamples extends Build {
         base = file("ordered-termination"))
     lazy val schedulerMessages = Project(id = "schedulerMessages",
         base = file("scheduler-messages"))
-    
+    lazy val shutdown = Project(id = "shutdownPattern", 
+        base = file("shutdown-pattern")) 
 }
 
