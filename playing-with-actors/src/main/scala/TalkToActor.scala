@@ -31,8 +31,8 @@ object Checker {
 
   sealed trait CheckerResponse
   //Checker Responses
-  case class BlackUser(user: User) extends CheckerMsg
-  case class WhiteUser(user: User) extends CheckerMsg
+  case class BlackUser(user: User) extends CheckerResponse
+  case class WhiteUser(user: User) extends CheckerResponse
 
 }
 
