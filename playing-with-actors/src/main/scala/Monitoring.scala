@@ -14,7 +14,8 @@ class Ares(athena: ActorRef) extends Actor {
   }
 
   def receive = {
-    case Terminated => 
+    case Terminated(_) => 
+      println(s"Ares received Terminated")
       context.stop(self)
   }
 }
@@ -39,6 +40,8 @@ object Monitoring extends App {
  val ares = system.actorOf(Props(classOf[Ares], athena), "ares")
 
  athena ! "Hi"
+  
+ Thread.sleep(500)
 
  system.terminate()
 
