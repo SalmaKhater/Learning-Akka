@@ -34,7 +34,7 @@ class StreamActorSpec extends TestKit(ActorSystem("test-system"))
   it should "have a control over a receiving elements" in {
     case object Tick
 
-    val source = Source(0.millis, 200.millis, Tick)
+    val source = Source.tick(0.millis, 200.millis, Tick)
 
     val probe = TestProbe()
 
